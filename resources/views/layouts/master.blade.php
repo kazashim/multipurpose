@@ -75,7 +75,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <p>
                     Dashboard
                   </p>
-                </rout>
+                </router-link>
               </li>
 
 
@@ -109,7 +109,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <p>
                 Profile
               </p>
-            </a>
+            </router-link>
           </li>
 
 
