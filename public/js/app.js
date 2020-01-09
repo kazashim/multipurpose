@@ -37198,6 +37198,8 @@ module.exports = function(module) {
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module './admin-lte'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
 window.Vue = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module 'vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 /**
  * The following block of code may be used to automatically register your
