@@ -11,8 +11,8 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 let routes = [
-    { path: '/dashboard', component: Foo },
-    { path: '/profile', component: Bar }
+    { path: '/dashboard', component: require('./components/Dashboard.vue') },
+    { path: '/profile', component: require('./components/profile.vue') }
   ]
 
 
