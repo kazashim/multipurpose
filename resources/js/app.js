@@ -10,7 +10,7 @@ window.Vue = require('vue');
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
-const routes = [
+let routes = [
     { path: '/dashboard', component: require('./components/Dashboard.vue') },
     { path: '/profile', component: require('./components/Profile.vue') }
   ]
@@ -37,6 +37,8 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+
 const app = new Vue({
-  router
-}).$mount('#app')
+    el: '#app',
+    router,
+});
