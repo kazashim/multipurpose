@@ -16,7 +16,7 @@ let routes = [
   ]
 
 
-  const router = new VueRouter({
+  let router = new VueRouter({
     routes // short for `routes: routes`
   })
 /**
