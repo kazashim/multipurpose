@@ -10,13 +10,13 @@ window.Vue = require('vue');
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
-let routes = [
+const routes = [
     { path: '/dashboard', component: require('./components/Dashboard.vue') },
     { path: '/profile', component: require('./components/Profile.vue') }
   ]
 
 
-  let router = new VueRouter({
+  const router = new VueRouter({
     routes // short for `routes: routes`
   })
 /**
