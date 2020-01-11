@@ -90,8 +90,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="#" class="nav-link ">
-                  <i class="far fas fa-circle nav-icon"></i>
-                  <p>Active Page</p>
+                  <i class="far fas fa-users nav-icon"></i>
+                  <p>Users</p>
                 </a>
               </li>
               <li class="nav-item">
