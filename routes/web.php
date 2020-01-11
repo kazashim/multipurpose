@@ -24,4 +24,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/dashboard', 'HomeController@index')->name('dashboard');
 Route::get('/users', 'HomeController@index')->name('users');
 Route::get('/profile', 'HomeController@index')->name('profile');
-
+Route::get('{path}','HomeController@index')->where( 'path', '([A-z\d-/_.]+)?' );
