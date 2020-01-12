@@ -26,7 +26,7 @@
                     <tr>
                       <td>183</td>
                       <td>John Doe</td>
-                      <td>11-7-2014</td>
+                      <td>11-7-</td>
                       <td><span class="tag tag-success">Approved</span></td>
                       <td>
                           <a href="#">

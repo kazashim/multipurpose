@@ -37591,7 +37591,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("td", [_vm._v("John Doe")]),
                     _vm._v(" "),
-                    _c("td", [_vm._v("11-7-2014")]),
+                    _c("td", [_vm._v("11-7-")]),
                     _vm._v(" "),
                     _c("td", [
                       _c("span", { staticClass: "tag tag-success" }, [
