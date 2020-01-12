@@ -37564,7 +37564,8 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "card-tools" }, [
                 _c("button", { staticClass: "btn btn-success" }, [
-                  _vm._v("Add New")
+                  _vm._v("Add New "),
+                  _c("i", { staticClass: "fas fa-user-plus" })
                 ])
               ])
             ]),
