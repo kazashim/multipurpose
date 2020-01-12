@@ -37645,10 +37645,10 @@ var staticRenderFns = [
         {
           staticClass: "modal fade",
           attrs: {
-            id: "exampleModal",
+            id: "Modal",
             tabindex: "-1",
             role: "dialog",
-            "aria-labelledby": "exampleModalLabel",
+            "aria-labelledby": "exampleAaModalLabel",
             "aria-hidden": "true"
           }
         },
@@ -37663,7 +37663,7 @@ var staticRenderFns = [
                     "h5",
                     {
                       staticClass: "modal-title",
-                      attrs: { id: "exampleModalLabel" }
+                      attrs: { id: "exampleAaModalLabel" }
                     },
                     [_vm._v("Modal title")]
                   ),
