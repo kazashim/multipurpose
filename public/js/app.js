@@ -37590,10 +37590,7 @@ var staticRenderFns = [
                   "button",
                   {
                     staticClass: "btn btn-success",
-                    attrs: {
-                      "data-toggle": "modal",
-                      "data-target": "#exampleModal"
-                    }
+                    attrs: { "data-toggle": "modal", "data-target": "#addNew" }
                   },
                   [
                     _vm._v("Add New "),
@@ -37655,10 +37652,10 @@ var staticRenderFns = [
         {
           staticClass: "modal fade",
           attrs: {
-            id: "addnew",
+            id: "addNew",
             tabindex: "-1",
             role: "dialog",
-            "aria-labelledby": "addnewLabel",
+            "aria-labelledby": "addNewLabel",
             "aria-hidden": "true"
           }
         },
@@ -37673,7 +37670,7 @@ var staticRenderFns = [
                     "h5",
                     {
                       staticClass: "modal-title",
-                      attrs: { id: "addnewLabel" }
+                      attrs: { id: "addNewLabel" }
                     },
                     [_vm._v("Modal title")]
                   ),
