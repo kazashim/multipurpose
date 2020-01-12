@@ -31,7 +31,8 @@
                       <td>
                           <a href="#">
                               <i class="fa fa-edit">
-                              </i>
+                              </i></a>
+                              <a href="#">
                               <i class="fa fa-trash">
 
                               </i>

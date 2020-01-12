@@ -2006,6 +2006,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37596,8 +37597,10 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("td", [
                       _c("a", { attrs: { href: "#" } }, [
-                        _c("i", { staticClass: "fa fa-edit" }),
-                        _vm._v(" "),
+                        _c("i", { staticClass: "fa fa-edit" })
+                      ]),
+                      _vm._v(" "),
+                      _c("a", { attrs: { href: "#" } }, [
                         _c("i", { staticClass: "fa fa-trash" })
                       ])
                     ])
