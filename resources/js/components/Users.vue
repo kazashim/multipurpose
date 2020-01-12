@@ -30,8 +30,9 @@
                       <td><span class="tag tag-success">Approved</span></td>
                       <td>
                           <a href="#">
-                              Edit
                               <i class="fa fa-edit">
+                              </i>
+                              <i class="fa fa-trash">
 
                               </i>
                           </a>
