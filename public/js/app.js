@@ -37551,9 +37551,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-12" }, [
           _c("div", { staticClass: "card" }, [
             _c("div", { staticClass: "card-header" }, [
-              _c("h3", { staticClass: "card-title" }, [
-                _vm._v("Responsive Hover Table")
-              ]),
+              _c("h3", { staticClass: "card-title" }, [_vm._v("User Table")]),
               _vm._v(" "),
               _c("div", { staticClass: "card-tools" })
             ]),
