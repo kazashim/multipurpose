@@ -7,7 +7,7 @@
                 <h3 class="card-title">User Table</h3>
 
                 <div class="card-tools">
-                    <button class="btn btn-success">Add New <i class="fas fa-user-plus"></i> </button>
+                    <button class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Add New <i class="fas fa-user-plus"></i> </button>
                 </div>
               </div>
               <!-- /.card-header -->
@@ -52,7 +52,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="addnewLabel">Modal title</h5>
+<h5 class="modal-title" id="addnewLabel">Modal title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>

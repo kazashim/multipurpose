@@ -37586,10 +37586,20 @@ var staticRenderFns = [
               _c("h3", { staticClass: "card-title" }, [_vm._v("User Table")]),
               _vm._v(" "),
               _c("div", { staticClass: "card-tools" }, [
-                _c("button", { staticClass: "btn btn-success" }, [
-                  _vm._v("Add New "),
-                  _c("i", { staticClass: "fas fa-user-plus" })
-                ])
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-success",
+                    attrs: {
+                      "data-toggle": "modal",
+                      "data-target": "#exampleModal"
+                    }
+                  },
+                  [
+                    _vm._v("Add New "),
+                    _c("i", { staticClass: "fas fa-user-plus" })
+                  ]
+                )
               ])
             ]),
             _vm._v(" "),
