@@ -7,7 +7,7 @@
                 <h3 class="card-title">User Table</h3>
 
                 <div class="card-tools">
-                    <button class="btn btn-success"></button>
+                    <button class="btn btn-success">Add New</button>
                 </div>
               </div>
               <!-- /.card-header -->

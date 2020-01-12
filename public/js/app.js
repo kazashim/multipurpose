@@ -37563,7 +37563,9 @@ var staticRenderFns = [
               _c("h3", { staticClass: "card-title" }, [_vm._v("User Table")]),
               _vm._v(" "),
               _c("div", { staticClass: "card-tools" }, [
-                _c("button", { staticClass: "btn btn-success" })
+                _c("button", { staticClass: "btn btn-success" }, [
+                  _vm._v("Add New")
+                ])
               ])
             ]),
             _vm._v(" "),
