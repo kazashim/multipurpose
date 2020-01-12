@@ -37562,7 +37562,9 @@ var staticRenderFns = [
             _c("div", { staticClass: "card-header" }, [
               _c("h3", { staticClass: "card-title" }, [_vm._v("User Table")]),
               _vm._v(" "),
-              _c("div", { staticClass: "card-tools" })
+              _c("div", { staticClass: "card-tools" }, [
+                _c("button", { staticClass: "btn btn-success" })
+              ])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body table-responsive p-0" }, [
@@ -37597,11 +37599,11 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("td", [
                       _c("a", { attrs: { href: "#" } }, [
-                        _c("i", { staticClass: "fa fa-edit" })
+                        _c("i", { staticClass: "fa fa-edit blue" })
                       ]),
                       _vm._v(" "),
                       _c("a", { attrs: { href: "#" } }, [
-                        _c("i", { staticClass: "fa fa-trash" })
+                        _c("i", { staticClass: "fa fa-trash red" })
                       ])
                     ])
                   ])

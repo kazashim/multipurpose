@@ -7,7 +7,7 @@
                 <h3 class="card-title">User Table</h3>
 
                 <div class="card-tools">
-
+                    <button class="btn btn-success"></button>
                 </div>
               </div>
               <!-- /.card-header -->
@@ -30,10 +30,10 @@
                       <td><span class="tag tag-success">Approved</span></td>
                       <td>
                           <a href="#">
-                              <i class="fa fa-edit">
+                              <i class="fa fa-edit blue">
                               </i></a>
                               <a href="#">
-                              <i class="fa fa-trash">
+                              <i class="fa fa-trash red">
 
                               </i>
                           </a>
