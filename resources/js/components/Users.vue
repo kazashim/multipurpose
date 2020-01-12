@@ -16,10 +16,10 @@
                   <thead>
                     <tr>
                       <th>ID</th>
-                      <th>User</th>
-                      <th>Date</th>
-                      <th>Status</th>
-                      <th>Reason</th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Type</th>
+                      <th>Modify</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -28,7 +28,14 @@
                       <td>John Doe</td>
                       <td>11-7-2014</td>
                       <td><span class="tag tag-success">Approved</span></td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                      <td>
+                          <a href="#">
+                              Edit
+                              <i class="fa fa-edit">
+
+                              </i>
+                          </a>
+                      </td>
                     </tr>
 
                   </tbody>
