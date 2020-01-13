@@ -6576,18 +6576,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-/*!
- * Determine if an object is a Buffer
- *
- * @author   Feross Aboukhadijeh <https://feross.org>
- * @license  MIT
- */
-
-module.exports = function isBuffer (obj) {
-  return obj != null && obj.constructor != null &&
-    typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj)
-}
-
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\George\\Documents\\GitHub\\multipurpose\\node_modules\\is-buffer\\index.js'");
 
 /***/ }),
 
@@ -37622,7 +37611,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("td", [_vm._v("John Doe")]),
                     _vm._v(" "),
-                    _c("td", [_vm._v("11-7-")]),
+                    _c("td", [_vm._v("11-7-20")]),
                     _vm._v(" "),
                     _c("td", [
                       _c("span", { staticClass: "tag tag-success" }, [
