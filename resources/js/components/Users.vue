@@ -60,7 +60,6 @@
       <div class="modal-body">
 
        <div class="form-group">
-
       <input v-model="form.name" type="text" name="name" placeholder="Name"
         class="form-control" :class="{ 'is-invalid': form.errors.has('name') }">
       <has-error :form="form" field="name"></has-error>

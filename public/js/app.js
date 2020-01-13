@@ -38725,7 +38725,11 @@ var render = function() {
                       ],
                       staticClass: "form-control",
                       class: { "is-invalid": _vm.form.errors.has("name") },
-                      attrs: { type: "text", name: "name" },
+                      attrs: {
+                        type: "text",
+                        name: "name",
+                        placeholder: "Name"
+                      },
                       domProps: { value: _vm.form.name },
                       on: {
                         input: function($event) {
