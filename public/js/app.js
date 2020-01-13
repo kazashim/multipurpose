@@ -2129,7 +2129,11 @@ __webpack_require__.r(__webpack_exports__);
     return {
       Form: new Form({
         name: '',
-        email: ''
+        email: '',
+        password: '',
+        type: '',
+        bio: '',
+        photo: ''
       })
     };
   },

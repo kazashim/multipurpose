@@ -79,8 +79,12 @@
 data(){
     return {
 Form: new Form({
-name: '',
-email: '',
+                    name : '',
+                    email: '',
+                    password: '',
+                    type: '',
+                    bio: '',
+                    photo: ''
 
 
 })
