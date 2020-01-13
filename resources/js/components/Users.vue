@@ -84,7 +84,7 @@
     export default {
 data(){
     return {
-Form: new Form({
+form: new Form({
                     name : '',
                     email: '',
                     password: '',
