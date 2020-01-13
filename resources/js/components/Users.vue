@@ -59,12 +59,12 @@
       </div>
       <div class="modal-body">
 
-          <div class="form-group">
-      <label>Username</label>
-      <input v-model="form.username" type="text" name="username"
-        class="form-control" :class="{ 'is-invalid': form.errors.has('username') }">
-      <has-error :form="form" field="username"></has-error>
-    </div>
+         <div class="form-group">
+                        <input v-model="form.name" type="text" name="name"
+                            placeholder="Name"
+                            class="form-control" :class="{ 'is-invalid': form.errors.has('name') }">
+                        <has-error :form="form" field="name"></has-error>
+                    </div>
 
       </div>
       <div class="modal-footer">

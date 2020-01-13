@@ -38715,33 +38715,35 @@ var render = function() {
                   "div",
                   { staticClass: "form-group" },
                   [
-                    _c("label", [_vm._v("Username")]),
-                    _vm._v(" "),
                     _c("input", {
                       directives: [
                         {
                           name: "model",
                           rawName: "v-model",
-                          value: _vm.form.username,
-                          expression: "form.username"
+                          value: _vm.form.name,
+                          expression: "form.name"
                         }
                       ],
                       staticClass: "form-control",
-                      class: { "is-invalid": _vm.form.errors.has("username") },
-                      attrs: { type: "text", name: "username" },
-                      domProps: { value: _vm.form.username },
+                      class: { "is-invalid": _vm.form.errors.has("name") },
+                      attrs: {
+                        type: "text",
+                        name: "name",
+                        placeholder: "Name"
+                      },
+                      domProps: { value: _vm.form.name },
                       on: {
                         input: function($event) {
                           if ($event.target.composing) {
                             return
                           }
-                          _vm.$set(_vm.form, "username", $event.target.value)
+                          _vm.$set(_vm.form, "name", $event.target.value)
                         }
                       }
                     }),
                     _vm._v(" "),
                     _c("has-error", {
-                      attrs: { form: _vm.form, field: "username" }
+                      attrs: { form: _vm.form, field: "name" }
                     })
                   ],
                   1
@@ -53954,6 +53956,8 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 
 window.Form = vform__WEBPACK_IMPORTED_MODULE_0__["Form"];
+Vue.component(vform__WEBPACK_IMPORTED_MODULE_0__["HasError"].name, vform__WEBPACK_IMPORTED_MODULE_0__["HasError"]);
+Vue.component(AlertError.name, AlertError);
 
 Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 var routes = [{
