@@ -93,7 +93,7 @@ Form: new Form({
                     photo: ''
 
 
-})
+            })
     }
 },
 
